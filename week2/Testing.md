@@ -39,8 +39,8 @@
   ```js
 QUnit.test( "hello test", function( assert ) {
   assert.ok( 1 == "1", "Passed!" );
-});
-```
+});```
+
 4. QUnit tests:
 
   Assert.ok, as seen above, takes 2 arguments, the first one is just a simple boolean test that passes if true (or truthy) and the second one just a message.
