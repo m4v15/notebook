@@ -40,7 +40,8 @@
   ```js
 QUnit.test( "hello test", function( assert ) {
   assert.ok( 1 == "1", "Passed!" );
-});```
+});
+```
 
 4. QUnit tests:
 
