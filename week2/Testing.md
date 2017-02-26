@@ -32,7 +32,8 @@
   <script src="https://code.jquery.com/qunit/qunit-2.1.1.js"></script>
   <script src="tests.js"></script>
 </body>
-</html>```
+</html>
+```
 
 3. Within the tests.js file have the example code from QUnit to test the tests are working properly:
 
