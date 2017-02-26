@@ -57,4 +57,4 @@ QUnit.test( "hello test", function( assert ) {
 
   deepEqual does much th same, but will ensure objects are compared properly.
 
-5. More information and QUnit documentation can be found here
+5. More information and QUnit documentation can be found [here](http://api.qunitjs.com/).
