@@ -1,0 +1,48 @@
+# Testing
+
+## Why test?
+
+- Check it will work with unexpected user inputs
+- Check for "edge" cases
+- Check the code works later on when a small part might be changed
+
+## TDD Test Driven Development
+
+- Instead of making funcions and then testing them, do it the other way round:
+
+**Decide on the criteria of the test that your code needs to pass, and then create the function in order to pass the test, with the minimum amount of code possible**
+
+## How to?
+
+1. Get QUnit going as a good test environment.
+2. Use QUnit Documentation as a good frame for the html, not forgetting to make the tests.js file as well.
+
+  ```html
+  <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>QUnit Example</title>
+  <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.1.1.css">
+</head>
+<body>
+  <div id="qunit"></div>
+  <div id="qunit-fixture"></div>
+  <script src="https://code.jquery.com/qunit/qunit-2.1.1.js"></script>
+  <script src="tests.js"></script>
+</body>
+</html>```
+
+3. Within the tests.js file have the example code from QUnit to test the tests are working properly:
+
+  ```js
+QUnit.test( "hello test", function( assert ) {
+  assert.ok( 1 == "1", "Passed!" );
+});
+```
+4. QUnit tests:
+
+  ```js
+  assert.equals()
+```
